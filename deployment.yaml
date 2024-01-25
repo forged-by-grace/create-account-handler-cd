@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: create-account-app
-        image: conano/create-account-handler:0.0.1-1
+        image: conano/create-account-handler:0.0.1-2
         envFrom:
         - secretRef:
             name: create-account-secret
