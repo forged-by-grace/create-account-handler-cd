@@ -4,7 +4,7 @@ metadata:
   name: create-account
   labels:
     app: create-account-app
-  namespace: accoun-update
+  namespace: account-update
 spec:
   selector:
     matchLabels:
