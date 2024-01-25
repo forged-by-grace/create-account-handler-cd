@@ -22,10 +22,10 @@ spec:
     spec:
       containers:
       - name: create-account-app
-        image: conano/create-account-handler:latest        
+        image: conano/create-account-handler:0.0.1-1
         envFrom:
         - secretRef:
-            name: create-account-handler-secret
+            name: create-account-handler:0.0.1-1
         imagePullPolicy: IfNotPresent        
         resources:
           requests:
